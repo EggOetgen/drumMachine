@@ -24,14 +24,18 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+    
+    /* Starndard Maxi Stuff*/
+    
+
         void audioOut(float * output, int bufferSize, int nChannels);
         void audioIn(float * input, int bufferSize, int nChannels);
 
     
-    float 	* lAudioOut; /* outputs */
+    float 	* lAudioOut;
     float   * rAudioOut;
     
-    float * lAudioIn; /* inputs */
+    float * lAudioIn;
     float * rAudioIn;
     
     vector <float> lAudio;
@@ -40,38 +44,6 @@ class ofApp : public ofBaseApp{
     
     double audOut;
 
-    ofxIntSlider tempo;
-    ofxFloatSlider gain;
-    ofxFloatSlider frequency;
-    ofxFloatSlider modAmount;
-    ofxFloatSlider ampEnvAtk;
-    ofxFloatSlider ampEnvRls;
-    ofxFloatSlider modEnvAtk;
-    ofxFloatSlider modEnvRls;
-    ofxFloatSlider noiseEnvAtk;
-    ofxFloatSlider noiseEnvRls;
-    ofxFloatSlider pitchMix;
-    ofxFloatSlider noiseMix;
-    ofxFloatSlider toneMix;
-    ofxPanel gui;
-    
-    ofxButton buttOne;
-     ofxButton buttTwo;
-     ofxButton buttThree;
-     ofxButton buttFour;
-    ofxButton buttFive;
-     ofxButton buttSix;
-     ofxButton buttSeven;
-     ofxButton buttEight;
-     ofxButton buttNine;
-     ofxButton buttTen;
-     ofxButton buttEleven;
-     ofxButton buttTwelve;
-     ofxButton buttThirteen;
-     ofxButton buttFourteen;
-     ofxButton buttFifteen;
-     ofxButton buttSixteen;
-    
     
     
     int sampleRate, bufferSize;
@@ -81,12 +53,6 @@ class ofApp : public ofBaseApp{
     
     maxiClock benKlock;
     
-    maxiKick kick;
-    
-    drumSynth test;
- //   drumSynth test = drumSynth(200, 1,0.7, 1,  1, 0, 0, 20000, 0, 10, 0, 10);
-    
-    vector<drumSynth*> tests;
-    
+
     sequencer testSeq;
 };

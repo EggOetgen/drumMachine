@@ -1,2370 +1,749 @@
-<?xml version="1.0"?>
-<plist version="1.0">
-	<dict>
-		<key>archiveVersion</key>
-		<string>1</string>
-		<key>classes</key>
-		<dict />
-		<key>objectVersion</key>
-		<string>46</string>
-		<key>objects</key>
-		<dict>
-			<key>582EF6F2E6600268E7F8FC67</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>stb_vorbis.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/stb_vorbis.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>1E4C414E98695D8F9F57F318</key>
-			<dict>
-				<key>fileRef</key>
-				<string>C74AA90C85D5E423DD500D92</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>C74AA90C85D5E423DD500D92</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>stb_vorbis.c</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/stb_vorbis.c</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>5022528979A3771B548B7200</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>sineTable.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/sineTable.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>AFF719D902B13B15783EB064</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maximilian.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maximilian.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>DE0AD615952253527AE95104</key>
-			<dict>
-				<key>fileRef</key>
-				<string>2F6BACEC5811EB36225E4FD5</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>2F6BACEC5811EB36225E4FD5</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maximilian.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maximilian.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>B0754DA7C35D006CE8C2AE0D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maxiMFCC.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiMFCC.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>D3C879857F4DF59F943E25AE</key>
-			<dict>
-				<key>fileRef</key>
-				<string>CC1D3611905D17B08B47DF86</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>CC1D3611905D17B08B47DF86</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maxiMFCC.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiMFCC.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>0D426E71674339C4C76AD387</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maxiGrains.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiGrains.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>069EF97B97A45D38B28D9654</key>
-			<dict>
-				<key>fileRef</key>
-				<string>E6092AE3643E3438528B3010</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>E6092AE3643E3438528B3010</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maxiGrains.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiGrains.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>5371528EEC4B3E330029EA0B</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maxiFFT.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiFFT.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E5872FE9ACCEAB9113861579</key>
-			<dict>
-				<key>fileRef</key>
-				<string>EB2B2E7CF7745BFBDB9686A6</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>EB2B2E7CF7745BFBDB9686A6</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maxiFFT.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiFFT.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>537B8628D182500C1B8DC06D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maxiBark.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiBark.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6A1ECE482778A6F071451CE2</key>
-			<dict>
-				<key>fileRef</key>
-				<string>28519508760FA9F1EF18D05A</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>28519508760FA9F1EF18D05A</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maxiBark.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiBark.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>71C0C44E94D9DEF203FB9322</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maxiAtoms.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiAtoms.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>21BFFFCAF235CDBD15C1100B</key>
-			<dict>
-				<key>fileRef</key>
-				<string>C0229F1B37500C4397F7688E</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>C0229F1B37500C4397F7688E</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>maxiAtoms.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiAtoms.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>908859A01119AD616A1C356B</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>fft.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/fft.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>4ACC32F17B7623DA048865D1</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>494B9C240B6D92CFA9C1619C</string>
-					<string>908859A01119AD616A1C356B</string>
-					<string>C0229F1B37500C4397F7688E</string>
-					<string>71C0C44E94D9DEF203FB9322</string>
-					<string>28519508760FA9F1EF18D05A</string>
-					<string>537B8628D182500C1B8DC06D</string>
-					<string>EB2B2E7CF7745BFBDB9686A6</string>
-					<string>5371528EEC4B3E330029EA0B</string>
-					<string>E6092AE3643E3438528B3010</string>
-					<string>0D426E71674339C4C76AD387</string>
-					<string>CC1D3611905D17B08B47DF86</string>
-					<string>B0754DA7C35D006CE8C2AE0D</string>
-					<string>2F6BACEC5811EB36225E4FD5</string>
-					<string>AFF719D902B13B15783EB064</string>
-					<string>5022528979A3771B548B7200</string>
-					<string>C74AA90C85D5E423DD500D92</string>
-					<string>582EF6F2E6600268E7F8FC67</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>libs</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>29DFC2B3B826F47787F252FF</key>
-			<dict>
-				<key>fileRef</key>
-				<string>494B9C240B6D92CFA9C1619C</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>494B9C240B6D92CFA9C1619C</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>fft.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/fft.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>8F6BFB59AB6D0A458C2F3C53</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>1737D85DDF19CB3AC8DD5E81</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>6234D3BCE87D1C3BA2230F19</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>8F6BFB59AB6D0A458C2F3C53</string>
-					<string>4ACC32F17B7623DA048865D1</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>ofxMaxim</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>1737D85DDF19CB3AC8DD5E81</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxMaxim.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src/ofxMaxim.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>FB6F33FE2EBE7B0713B6EFD3</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>stb_truetype.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/stb_truetype.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6EA6C91EB7961778C8568EC1</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>stb_textedit.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/stb_textedit.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>0DE24F21A13541F90A0F08CA</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>stb_rect_pack.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/stb_rect_pack.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>591AFE1AFD2FCAEDD57B0B5D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>imgui_internal.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/imgui_internal.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>35B92B4173F92A10833CA9D6</key>
-			<dict>
-				<key>fileRef</key>
-				<string>4E9266EC59EF565843B2B605</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>4E9266EC59EF565843B2B605</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>imgui_draw.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/imgui_draw.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>03512EEC3926A67EE708314E</key>
-			<dict>
-				<key>fileRef</key>
-				<string>15049D55E50C29FCA7DB7FFB</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>15049D55E50C29FCA7DB7FFB</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>imgui_demo.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/imgui_demo.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>FB18FAEAB7376FB76203F87D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>imgui.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/imgui.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>807146441E0D13714E9F4654</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>A726D982202EA2D07877EBD3</string>
-					<string>FB18FAEAB7376FB76203F87D</string>
-					<string>15049D55E50C29FCA7DB7FFB</string>
-					<string>4E9266EC59EF565843B2B605</string>
-					<string>591AFE1AFD2FCAEDD57B0B5D</string>
-					<string>0DE24F21A13541F90A0F08CA</string>
-					<string>6EA6C91EB7961778C8568EC1</string>
-					<string>FB6F33FE2EBE7B0713B6EFD3</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>8D2869234BA7562D78D731FF</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>807146441E0D13714E9F4654</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>imgui</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>C618591A26FF62625326E2DD</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>8D2869234BA7562D78D731FF</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>libs</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>E87BCC69C2E0E0D3FB55C6A8</key>
-			<dict>
-				<key>fileRef</key>
-				<string>A726D982202EA2D07877EBD3</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>A726D982202EA2D07877EBD3</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>imgui.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/imgui.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>A42002BEFD162AA7F6A62522</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ThemeTest.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/ThemeTest.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E36CEAC7703CB0595CCCC974</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxImGui.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/ofxImGui.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>83F69B8FBA5A69654C12B7A3</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>imconfig.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/imconfig.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>4D7599309B830B48DFA2BA4C</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>Helpers.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/Helpers.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>50B374D9096F673B2348DE26</key>
-			<dict>
-				<key>fileRef</key>
-				<string>1EE0190C99C71C4D35838702</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>1EE0190C99C71C4D35838702</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>Helpers.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/Helpers.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>B31F33112FD36FFFE9AD0B0B</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>Gui.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/Gui.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>498C5E73A7DA55C9E7991336</key>
-			<dict>
-				<key>fileRef</key>
-				<string>8C134F2317FBE42FDD3EFE87</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>8C134F2317FBE42FDD3EFE87</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>Gui.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/Gui.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>45DFA39C60ACB1D1A0C54999</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>EngineOpenGLES.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/EngineOpenGLES.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>4A1DCD8F274A5DEED3BC8A64</key>
-			<dict>
-				<key>fileRef</key>
-				<string>78937A63209F41E3F25BED66</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>78937A63209F41E3F25BED66</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>EngineOpenGLES.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/EngineOpenGLES.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>4055230A58361591C0A99BA7</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>EngineGLFW.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/EngineGLFW.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>DBAF8550426D4573E0BCAEAA</key>
-			<dict>
-				<key>fileRef</key>
-				<string>30AA009403C03C48B5A26CC4</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>30AA009403C03C48B5A26CC4</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>EngineGLFW.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/EngineGLFW.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>111E33B21EC155BA57F60565</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>BaseTheme.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/BaseTheme.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>70C1BED3013552799F49D085</key>
-			<dict>
-				<key>fileRef</key>
-				<string>6EB9747473808A6FFA243388</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>6EB9747473808A6FFA243388</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>BaseTheme.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/BaseTheme.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>80ABEE8C04F3A674A920746B</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>BaseEngine.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/BaseEngine.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6FF8AA08E79CFA38503CDB0E</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>66D858089480A7BC9832D947</string>
-					<string>80ABEE8C04F3A674A920746B</string>
-					<string>6EB9747473808A6FFA243388</string>
-					<string>111E33B21EC155BA57F60565</string>
-					<string>30AA009403C03C48B5A26CC4</string>
-					<string>4055230A58361591C0A99BA7</string>
-					<string>78937A63209F41E3F25BED66</string>
-					<string>45DFA39C60ACB1D1A0C54999</string>
-					<string>8C134F2317FBE42FDD3EFE87</string>
-					<string>B31F33112FD36FFFE9AD0B0B</string>
-					<string>1EE0190C99C71C4D35838702</string>
-					<string>4D7599309B830B48DFA2BA4C</string>
-					<string>83F69B8FBA5A69654C12B7A3</string>
-					<string>E36CEAC7703CB0595CCCC974</string>
-					<string>A42002BEFD162AA7F6A62522</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>768C3255AF2F3E1A78DC4DF4</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>6FF8AA08E79CFA38503CDB0E</string>
-					<string>C618591A26FF62625326E2DD</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>ofxImGui</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>5B4E6DBE07AE4366DB763C9B</key>
-			<dict>
-				<key>fileRef</key>
-				<string>66D858089480A7BC9832D947</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>66D858089480A7BC9832D947</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>BaseEngine.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/BaseEngine.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>EB1BBA09CD8C5FDA74F2B4AB</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxToggle.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxToggle.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6AB9107DEBCEDE7233199EF3</key>
-			<dict>
-				<key>fileRef</key>
-				<string>DA36C33B287841B071455B40</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>DA36C33B287841B071455B40</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxToggle.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxToggle.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>F01C37B01110EE4D93562405</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxSliderGroup.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxSliderGroup.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>2565A52E53B6125066032FD7</key>
-			<dict>
-				<key>fileRef</key>
-				<string>2B9AED7EAAC283D74285BB18</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>2B9AED7EAAC283D74285BB18</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxSliderGroup.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxSliderGroup.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>8A1CC9CC3456D0CC655FABEA</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxSlider.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxSlider.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>0B451155F57FB50BC43FA16A</key>
-			<dict>
-				<key>fileRef</key>
-				<string>D8DAC6125813AD6CDA46D537</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>D8DAC6125813AD6CDA46D537</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxSlider.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxSlider.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>8312C7959F02917C5330E25D</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxPanel.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxPanel.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>905CC06B58E5CC55BCB1BC66</key>
-			<dict>
-				<key>fileRef</key>
-				<string>749B97C8E1B598557B35CCEA</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>749B97C8E1B598557B35CCEA</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxPanel.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxPanel.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>201F50B448C310258D2092EF</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxLabel.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxLabel.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>EA756FA5EEB625E6A5300830</key>
-			<dict>
-				<key>fileRef</key>
-				<string>272A1796D22DFCB76F0CCD60</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>272A1796D22DFCB76F0CCD60</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxLabel.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxLabel.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>C442D5D28634BB051850B166</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxInputField.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxInputField.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>F9EE76804AA67102B5A30333</key>
-			<dict>
-				<key>fileRef</key>
-				<string>15B657C7111097AAC3C76A33</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>15B657C7111097AAC3C76A33</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxInputField.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxInputField.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>F6C76451B3756CA32396FDD9</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxGuiGroup.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxGuiGroup.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>43FD8255E45567C34B2769E8</key>
-			<dict>
-				<key>fileRef</key>
-				<string>DF8F254258A8E540AFAA23FC</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>DF8F254258A8E540AFAA23FC</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxGuiGroup.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxGuiGroup.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>8A1EB5F38C11363F432C416F</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxGui.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxGui.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>D02A4654E18FC067B9A06E4C</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxColorPicker.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxColorPicker.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>1ED85081EBB2A3FB0F6EE214</key>
-			<dict>
-				<key>fileRef</key>
-				<string>82249B286F4F1232F045941E</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>82249B286F4F1232F045941E</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxColorPicker.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxColorPicker.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>89130FEC0E2CFA5F1E599098</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxButton.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxButton.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>3AB00D038AAC4F131C336D23</key>
-			<dict>
-				<key>fileRef</key>
-				<string>C9633A9972301FECC806A459</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>C9633A9972301FECC806A459</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxButton.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxButton.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>843A516DF11FBBFE33469DF5</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxBaseGui.h</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxBaseGui.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>A763ED608B35AE3310251DEE</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>E716044F210967833B3E7696</string>
-					<string>843A516DF11FBBFE33469DF5</string>
-					<string>C9633A9972301FECC806A459</string>
-					<string>89130FEC0E2CFA5F1E599098</string>
-					<string>82249B286F4F1232F045941E</string>
-					<string>D02A4654E18FC067B9A06E4C</string>
-					<string>8A1EB5F38C11363F432C416F</string>
-					<string>DF8F254258A8E540AFAA23FC</string>
-					<string>F6C76451B3756CA32396FDD9</string>
-					<string>15B657C7111097AAC3C76A33</string>
-					<string>C442D5D28634BB051850B166</string>
-					<string>272A1796D22DFCB76F0CCD60</string>
-					<string>201F50B448C310258D2092EF</string>
-					<string>749B97C8E1B598557B35CCEA</string>
-					<string>8312C7959F02917C5330E25D</string>
-					<string>D8DAC6125813AD6CDA46D537</string>
-					<string>8A1CC9CC3456D0CC655FABEA</string>
-					<string>2B9AED7EAAC283D74285BB18</string>
-					<string>F01C37B01110EE4D93562405</string>
-					<string>DA36C33B287841B071455B40</string>
-					<string>EB1BBA09CD8C5FDA74F2B4AB</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>480A780D8D0308AE4A368801</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>A763ED608B35AE3310251DEE</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>ofxGui</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>553557987D9AD7242CDB55DA</key>
-			<dict>
-				<key>fileRef</key>
-				<string>E716044F210967833B3E7696</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>E716044F210967833B3E7696</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxBaseGui.cpp</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxBaseGui.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>FC762C74FD0F2242EC0E7BDC</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>synthGui.hpp</string>
-				<key>path</key>
-				<string>src/synthGui.hpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>ED0865F3F914A77099BF90C1</key>
-			<dict>
-				<key>fileRef</key>
-				<string>145E46A5BEB0D791247462D8</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>145E46A5BEB0D791247462D8</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>synthGui.cpp</string>
-				<key>path</key>
-				<string>src/synthGui.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>DC2A5CFD59FF696D8C00AB4A</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>sequencer.hpp</string>
-				<key>path</key>
-				<string>src/sequencer.hpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>4B84A54619122AFA8571A5F0</key>
-			<dict>
-				<key>fileRef</key>
-				<string>DD1910F01FFA368790970198</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>DD1910F01FFA368790970198</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>sequencer.cpp</string>
-				<key>path</key>
-				<string>src/sequencer.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>F55F486597A69C1381C0F155</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>drumSynth.hpp</string>
-				<key>path</key>
-				<string>src/drumSynth.hpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>A0A4C99D2CEE00D427CA391E</key>
-			<dict>
-				<key>fileRef</key>
-				<string>D083C732F0379512349E232E</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>D083C732F0379512349E232E</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>drumSynth.cpp</string>
-				<key>path</key>
-				<string>src/drumSynth.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>6948EE371B920CB800B5AC1A</key>
-			<dict>
-				<key>children</key>
-				<array />
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>local_addons</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>8466F1851C04CA0E00918B1C</key>
-			<dict>
-				<key>buildActionMask</key>
-				<string>12</string>
-				<key>files</key>
-				<array />
-				<key>inputPaths</key>
-				<array />
-				<key>isa</key>
-				<string>PBXShellScriptBuildPhase</string>
-				<key>outputPaths</key>
-				<array />
-				<key>runOnlyForDeploymentPostprocessing</key>
-				<string>0</string>
-				<key>shellPath</key>
-				<string>/bin/sh</string>
-				<key>shellScript</key>
-				<string>echo "$GCC_PREPROCESSOR_DEFINITIONS";
-APPSTORE=`expr "$GCC_PREPROCESSOR_DEFINITIONS" : ".*APPSTORE=\([0-9]*\)"`
-if [ -z "$APPSTORE" ] ; then
-echo "Note: Not copying bin/data to App Package or doing App Code signing. Use AppStore target for AppStore distribution";
-else
-# Copy bin/data into App/Resources
-rsync -avz --exclude='.DS_Store' "${SRCROOT}/bin/data/" "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/"
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
 
-# ---- Code Sign App Package ----
+/* Begin PBXBuildFile section */
+		03512EEC3926A67EE708314E /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15049D55E50C29FCA7DB7FFB /* imgui_demo.cpp */; };
+		069EF97B97A45D38B28D9654 /* maxiGrains.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6092AE3643E3438528B3010 /* maxiGrains.cpp */; };
+		0B451155F57FB50BC43FA16A /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8DAC6125813AD6CDA46D537 /* ofxSlider.cpp */; };
+		1E4C414E98695D8F9F57F318 /* stb_vorbis.c in Sources */ = {isa = PBXBuildFile; fileRef = C74AA90C85D5E423DD500D92 /* stb_vorbis.c */; };
+		1ED85081EBB2A3FB0F6EE214 /* ofxColorPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82249B286F4F1232F045941E /* ofxColorPicker.cpp */; };
+		21BFFFCAF235CDBD15C1100B /* maxiAtoms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0229F1B37500C4397F7688E /* maxiAtoms.cpp */; };
+		2565A52E53B6125066032FD7 /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9AED7EAAC283D74285BB18 /* ofxSliderGroup.cpp */; };
+		29DFC2B3B826F47787F252FF /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494B9C240B6D92CFA9C1619C /* fft.cpp */; };
+		35B92B4173F92A10833CA9D6 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E9266EC59EF565843B2B605 /* imgui_draw.cpp */; };
+		3AB00D038AAC4F131C336D23 /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9633A9972301FECC806A459 /* ofxButton.cpp */; };
+		43FD8255E45567C34B2769E8 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF8F254258A8E540AFAA23FC /* ofxGuiGroup.cpp */; };
+		498C5E73A7DA55C9E7991336 /* Gui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C134F2317FBE42FDD3EFE87 /* Gui.cpp */; };
+		4A1DCD8F274A5DEED3BC8A64 /* EngineOpenGLES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78937A63209F41E3F25BED66 /* EngineOpenGLES.cpp */; };
+		4B84A54619122AFA8571A5F0 /* sequencer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD1910F01FFA368790970198 /* sequencer.cpp */; };
+		50B374D9096F673B2348DE26 /* Helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0190C99C71C4D35838702 /* Helpers.cpp */; };
+		553557987D9AD7242CDB55DA /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E716044F210967833B3E7696 /* ofxBaseGui.cpp */; };
+		5B4E6DBE07AE4366DB763C9B /* BaseEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66D858089480A7BC9832D947 /* BaseEngine.cpp */; };
+		6A1ECE482778A6F071451CE2 /* maxiBark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28519508760FA9F1EF18D05A /* maxiBark.cpp */; };
+		6AB9107DEBCEDE7233199EF3 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA36C33B287841B071455B40 /* ofxToggle.cpp */; };
+		70C1BED3013552799F49D085 /* BaseTheme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9747473808A6FFA243388 /* BaseTheme.cpp */; };
+		905CC06B58E5CC55BCB1BC66 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 749B97C8E1B598557B35CCEA /* ofxPanel.cpp */; };
+		A0A4C99D2CEE00D427CA391E /* drumSynth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D083C732F0379512349E232E /* drumSynth.cpp */; };
+		D3C879857F4DF59F943E25AE /* maxiMFCC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC1D3611905D17B08B47DF86 /* maxiMFCC.cpp */; };
+		DBAF8550426D4573E0BCAEAA /* EngineGLFW.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30AA009403C03C48B5A26CC4 /* EngineGLFW.cpp */; };
+		DE0AD615952253527AE95104 /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BACEC5811EB36225E4FD5 /* maximilian.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		E5872FE9ACCEAB9113861579 /* maxiFFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB2B2E7CF7745BFBDB9686A6 /* maxiFFT.cpp */; };
+		E87BCC69C2E0E0D3FB55C6A8 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A726D982202EA2D07877EBD3 /* imgui.cpp */; };
+		EA756FA5EEB625E6A5300830 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 272A1796D22DFCB76F0CCD60 /* ofxLabel.cpp */; };
+		F9EE76804AA67102B5A30333 /* ofxInputField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15B657C7111097AAC3C76A33 /* ofxInputField.cpp */; };
+/* End PBXBuildFile section */
 
-# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
 
-# Verify that $CODE_SIGN_IDENTITY is set
-if [ -z "${CODE_SIGN_IDENTITY}" ] ; then
-echo "CODE_SIGN_IDENTITY needs to be set for framework code-signing"
-exit 0
-fi
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
-if [ -z "${CODE_SIGN_ENTITLEMENTS}" ] ; then
-echo "CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!"
+/* Begin PBXFileReference section */
+		0D426E71674339C4C76AD387 /* maxiGrains.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = maxiGrains.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiGrains.h; sourceTree = SOURCE_ROOT; };
+		0DE24F21A13541F90A0F08CA /* stb_rect_pack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stb_rect_pack.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/stb_rect_pack.h; sourceTree = SOURCE_ROOT; };
+		111E33B21EC155BA57F60565 /* BaseTheme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BaseTheme.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/BaseTheme.h; sourceTree = SOURCE_ROOT; };
+		15049D55E50C29FCA7DB7FFB /* imgui_demo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = imgui_demo.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/imgui_demo.cpp; sourceTree = SOURCE_ROOT; };
+		15B657C7111097AAC3C76A33 /* ofxInputField.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxInputField.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxInputField.cpp; sourceTree = SOURCE_ROOT; };
+		1737D85DDF19CB3AC8DD5E81 /* ofxMaxim.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMaxim.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src/ofxMaxim.h; sourceTree = SOURCE_ROOT; };
+		1EE0190C99C71C4D35838702 /* Helpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Helpers.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/Helpers.cpp; sourceTree = SOURCE_ROOT; };
+		201F50B448C310258D2092EF /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLabel.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
+		272A1796D22DFCB76F0CCD60 /* ofxLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLabel.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxLabel.cpp; sourceTree = SOURCE_ROOT; };
+		28519508760FA9F1EF18D05A /* maxiBark.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = maxiBark.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiBark.cpp; sourceTree = SOURCE_ROOT; };
+		2B9AED7EAAC283D74285BB18 /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSliderGroup.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxSliderGroup.cpp; sourceTree = SOURCE_ROOT; };
+		2F6BACEC5811EB36225E4FD5 /* maximilian.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = maximilian.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maximilian.cpp; sourceTree = SOURCE_ROOT; };
+		30AA009403C03C48B5A26CC4 /* EngineGLFW.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = EngineGLFW.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/EngineGLFW.cpp; sourceTree = SOURCE_ROOT; };
+		4055230A58361591C0A99BA7 /* EngineGLFW.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = EngineGLFW.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/EngineGLFW.h; sourceTree = SOURCE_ROOT; };
+		45DFA39C60ACB1D1A0C54999 /* EngineOpenGLES.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = EngineOpenGLES.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/EngineOpenGLES.h; sourceTree = SOURCE_ROOT; };
+		494B9C240B6D92CFA9C1619C /* fft.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = fft.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/fft.cpp; sourceTree = SOURCE_ROOT; };
+		4D7599309B830B48DFA2BA4C /* Helpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Helpers.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/Helpers.h; sourceTree = SOURCE_ROOT; };
+		4E9266EC59EF565843B2B605 /* imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = imgui_draw.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/imgui_draw.cpp; sourceTree = SOURCE_ROOT; };
+		5022528979A3771B548B7200 /* sineTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sineTable.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/sineTable.h; sourceTree = SOURCE_ROOT; };
+		5371528EEC4B3E330029EA0B /* maxiFFT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = maxiFFT.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiFFT.h; sourceTree = SOURCE_ROOT; };
+		537B8628D182500C1B8DC06D /* maxiBark.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = maxiBark.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiBark.h; sourceTree = SOURCE_ROOT; };
+		582EF6F2E6600268E7F8FC67 /* stb_vorbis.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stb_vorbis.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/stb_vorbis.h; sourceTree = SOURCE_ROOT; };
+		591AFE1AFD2FCAEDD57B0B5D /* imgui_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imgui_internal.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/imgui_internal.h; sourceTree = SOURCE_ROOT; };
+		66D858089480A7BC9832D947 /* BaseEngine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BaseEngine.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/BaseEngine.cpp; sourceTree = SOURCE_ROOT; };
+		6EA6C91EB7961778C8568EC1 /* stb_textedit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stb_textedit.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/stb_textedit.h; sourceTree = SOURCE_ROOT; };
+		6EB9747473808A6FFA243388 /* BaseTheme.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BaseTheme.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/BaseTheme.cpp; sourceTree = SOURCE_ROOT; };
+		71C0C44E94D9DEF203FB9322 /* maxiAtoms.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = maxiAtoms.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiAtoms.h; sourceTree = SOURCE_ROOT; };
+		749B97C8E1B598557B35CCEA /* ofxPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxPanel.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxPanel.cpp; sourceTree = SOURCE_ROOT; };
+		78937A63209F41E3F25BED66 /* EngineOpenGLES.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = EngineOpenGLES.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/EngineOpenGLES.cpp; sourceTree = SOURCE_ROOT; };
+		80ABEE8C04F3A674A920746B /* BaseEngine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BaseEngine.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/BaseEngine.h; sourceTree = SOURCE_ROOT; };
+		82249B286F4F1232F045941E /* ofxColorPicker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxColorPicker.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxColorPicker.cpp; sourceTree = SOURCE_ROOT; };
+		8312C7959F02917C5330E25D /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxPanel.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
+		83F69B8FBA5A69654C12B7A3 /* imconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imconfig.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/imconfig.h; sourceTree = SOURCE_ROOT; };
+		843A516DF11FBBFE33469DF5 /* ofxBaseGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBaseGui.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxBaseGui.h; sourceTree = SOURCE_ROOT; };
+		89130FEC0E2CFA5F1E599098 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
+		8A1CC9CC3456D0CC655FABEA /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSlider.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
+		8A1EB5F38C11363F432C416F /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGui.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
+		8C134F2317FBE42FDD3EFE87 /* Gui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Gui.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/Gui.cpp; sourceTree = SOURCE_ROOT; };
+		908859A01119AD616A1C356B /* fft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fft.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/fft.h; sourceTree = SOURCE_ROOT; };
+		A42002BEFD162AA7F6A62522 /* ThemeTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ThemeTest.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/ThemeTest.h; sourceTree = SOURCE_ROOT; };
+		A726D982202EA2D07877EBD3 /* imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = imgui.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/imgui.cpp; sourceTree = SOURCE_ROOT; };
+		AFF719D902B13B15783EB064 /* maximilian.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = maximilian.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maximilian.h; sourceTree = SOURCE_ROOT; };
+		B0754DA7C35D006CE8C2AE0D /* maxiMFCC.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = maxiMFCC.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiMFCC.h; sourceTree = SOURCE_ROOT; };
+		B31F33112FD36FFFE9AD0B0B /* Gui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Gui.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/Gui.h; sourceTree = SOURCE_ROOT; };
+		C0229F1B37500C4397F7688E /* maxiAtoms.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = maxiAtoms.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiAtoms.cpp; sourceTree = SOURCE_ROOT; };
+		C442D5D28634BB051850B166 /* ofxInputField.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxInputField.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxInputField.h; sourceTree = SOURCE_ROOT; };
+		C74AA90C85D5E423DD500D92 /* stb_vorbis.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = stb_vorbis.c; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/stb_vorbis.c; sourceTree = SOURCE_ROOT; };
+		C9633A9972301FECC806A459 /* ofxButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxButton.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxButton.cpp; sourceTree = SOURCE_ROOT; };
+		CC1D3611905D17B08B47DF86 /* maxiMFCC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = maxiMFCC.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiMFCC.cpp; sourceTree = SOURCE_ROOT; };
+		D02A4654E18FC067B9A06E4C /* ofxColorPicker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxColorPicker.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxColorPicker.h; sourceTree = SOURCE_ROOT; };
+		D083C732F0379512349E232E /* drumSynth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = drumSynth.cpp; path = src/drumSynth.cpp; sourceTree = SOURCE_ROOT; };
+		D8DAC6125813AD6CDA46D537 /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSlider.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
+		DA36C33B287841B071455B40 /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxToggle.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
+		DC2A5CFD59FF696D8C00AB4A /* sequencer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sequencer.hpp; path = src/sequencer.hpp; sourceTree = SOURCE_ROOT; };
+		DD1910F01FFA368790970198 /* sequencer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = sequencer.cpp; path = src/sequencer.cpp; sourceTree = SOURCE_ROOT; };
+		DF8F254258A8E540AFAA23FC /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGuiGroup.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
+		E36CEAC7703CB0595CCCC974 /* ofxImGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxImGui.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src/ofxImGui.h; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* kickMachineDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kickMachineDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E6092AE3643E3438528B3010 /* maxiGrains.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = maxiGrains.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiGrains.cpp; sourceTree = SOURCE_ROOT; };
+		E716044F210967833B3E7696 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxBaseGui.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxBaseGui.cpp; sourceTree = SOURCE_ROOT; };
+		EB1BBA09CD8C5FDA74F2B4AB /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxToggle.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
+		EB2B2E7CF7745BFBDB9686A6 /* maxiFFT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = maxiFFT.cpp; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs/maxiFFT.cpp; sourceTree = SOURCE_ROOT; };
+		F01C37B01110EE4D93562405 /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSliderGroup.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
+		F55F486597A69C1381C0F155 /* drumSynth.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = drumSynth.hpp; path = src/drumSynth.hpp; sourceTree = SOURCE_ROOT; };
+		F6C76451B3756CA32396FDD9 /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGuiGroup.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
+		FB18FAEAB7376FB76203F87D /* imgui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imgui.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/imgui.h; sourceTree = SOURCE_ROOT; };
+		FB6F33FE2EBE7B0713B6EFD3 /* stb_truetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stb_truetype.h; path = ../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src/stb_truetype.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
 
-if [ "${CONFIGURATION}" = "Release" ] ; then
-exit 1
-else
-# Code-signing is optional for non-release builds.
-exit 0
-fi
-fi
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
-ITEMS=""
+/* Begin PBXGroup section */
+		480A780D8D0308AE4A368801 /* ofxGui */ = {
+			isa = PBXGroup;
+			children = (
+				A763ED608B35AE3310251DEE /* src */,
+			);
+			name = ofxGui;
+			sourceTree = "<group>";
+		};
+		4ACC32F17B7623DA048865D1 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				494B9C240B6D92CFA9C1619C /* fft.cpp */,
+				908859A01119AD616A1C356B /* fft.h */,
+				C0229F1B37500C4397F7688E /* maxiAtoms.cpp */,
+				71C0C44E94D9DEF203FB9322 /* maxiAtoms.h */,
+				28519508760FA9F1EF18D05A /* maxiBark.cpp */,
+				537B8628D182500C1B8DC06D /* maxiBark.h */,
+				EB2B2E7CF7745BFBDB9686A6 /* maxiFFT.cpp */,
+				5371528EEC4B3E330029EA0B /* maxiFFT.h */,
+				E6092AE3643E3438528B3010 /* maxiGrains.cpp */,
+				0D426E71674339C4C76AD387 /* maxiGrains.h */,
+				CC1D3611905D17B08B47DF86 /* maxiMFCC.cpp */,
+				B0754DA7C35D006CE8C2AE0D /* maxiMFCC.h */,
+				2F6BACEC5811EB36225E4FD5 /* maximilian.cpp */,
+				AFF719D902B13B15783EB064 /* maximilian.h */,
+				5022528979A3771B548B7200 /* sineTable.h */,
+				C74AA90C85D5E423DD500D92 /* stb_vorbis.c */,
+				582EF6F2E6600268E7F8FC67 /* stb_vorbis.h */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		6234D3BCE87D1C3BA2230F19 /* ofxMaxim */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BFB59AB6D0A458C2F3C53 /* src */,
+				4ACC32F17B7623DA048865D1 /* libs */,
+			);
+			name = ofxMaxim;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		6FF8AA08E79CFA38503CDB0E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				66D858089480A7BC9832D947 /* BaseEngine.cpp */,
+				80ABEE8C04F3A674A920746B /* BaseEngine.h */,
+				6EB9747473808A6FFA243388 /* BaseTheme.cpp */,
+				111E33B21EC155BA57F60565 /* BaseTheme.h */,
+				30AA009403C03C48B5A26CC4 /* EngineGLFW.cpp */,
+				4055230A58361591C0A99BA7 /* EngineGLFW.h */,
+				78937A63209F41E3F25BED66 /* EngineOpenGLES.cpp */,
+				45DFA39C60ACB1D1A0C54999 /* EngineOpenGLES.h */,
+				8C134F2317FBE42FDD3EFE87 /* Gui.cpp */,
+				B31F33112FD36FFFE9AD0B0B /* Gui.h */,
+				1EE0190C99C71C4D35838702 /* Helpers.cpp */,
+				4D7599309B830B48DFA2BA4C /* Helpers.h */,
+				83F69B8FBA5A69654C12B7A3 /* imconfig.h */,
+				E36CEAC7703CB0595CCCC974 /* ofxImGui.h */,
+				A42002BEFD162AA7F6A62522 /* ThemeTest.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		768C3255AF2F3E1A78DC4DF4 /* ofxImGui */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8AA08E79CFA38503CDB0E /* src */,
+				C618591A26FF62625326E2DD /* libs */,
+			);
+			name = ofxImGui;
+			sourceTree = "<group>";
+		};
+		807146441E0D13714E9F4654 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A726D982202EA2D07877EBD3 /* imgui.cpp */,
+				FB18FAEAB7376FB76203F87D /* imgui.h */,
+				15049D55E50C29FCA7DB7FFB /* imgui_demo.cpp */,
+				4E9266EC59EF565843B2B605 /* imgui_draw.cpp */,
+				591AFE1AFD2FCAEDD57B0B5D /* imgui_internal.h */,
+				0DE24F21A13541F90A0F08CA /* stb_rect_pack.h */,
+				6EA6C91EB7961778C8568EC1 /* stb_textedit.h */,
+				FB6F33FE2EBE7B0713B6EFD3 /* stb_truetype.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		8D2869234BA7562D78D731FF /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				807146441E0D13714E9F4654 /* src */,
+			);
+			name = imgui;
+			sourceTree = "<group>";
+		};
+		8F6BFB59AB6D0A458C2F3C53 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1737D85DDF19CB3AC8DD5E81 /* ofxMaxim.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		A763ED608B35AE3310251DEE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E716044F210967833B3E7696 /* ofxBaseGui.cpp */,
+				843A516DF11FBBFE33469DF5 /* ofxBaseGui.h */,
+				C9633A9972301FECC806A459 /* ofxButton.cpp */,
+				89130FEC0E2CFA5F1E599098 /* ofxButton.h */,
+				82249B286F4F1232F045941E /* ofxColorPicker.cpp */,
+				D02A4654E18FC067B9A06E4C /* ofxColorPicker.h */,
+				8A1EB5F38C11363F432C416F /* ofxGui.h */,
+				DF8F254258A8E540AFAA23FC /* ofxGuiGroup.cpp */,
+				F6C76451B3756CA32396FDD9 /* ofxGuiGroup.h */,
+				15B657C7111097AAC3C76A33 /* ofxInputField.cpp */,
+				C442D5D28634BB051850B166 /* ofxInputField.h */,
+				272A1796D22DFCB76F0CCD60 /* ofxLabel.cpp */,
+				201F50B448C310258D2092EF /* ofxLabel.h */,
+				749B97C8E1B598557B35CCEA /* ofxPanel.cpp */,
+				8312C7959F02917C5330E25D /* ofxPanel.h */,
+				D8DAC6125813AD6CDA46D537 /* ofxSlider.cpp */,
+				8A1CC9CC3456D0CC655FABEA /* ofxSlider.h */,
+				2B9AED7EAAC283D74285BB18 /* ofxSliderGroup.cpp */,
+				F01C37B01110EE4D93562405 /* ofxSliderGroup.h */,
+				DA36C33B287841B071455B40 /* ofxToggle.cpp */,
+				EB1BBA09CD8C5FDA74F2B4AB /* ofxToggle.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				480A780D8D0308AE4A368801 /* ofxGui */,
+				768C3255AF2F3E1A78DC4DF4 /* ofxImGui */,
+				6234D3BCE87D1C3BA2230F19 /* ofxMaxim */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		C618591A26FF62625326E2DD /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				8D2869234BA7562D78D731FF /* imgui */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* kickMachineDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				D083C732F0379512349E232E /* drumSynth.cpp */,
+				F55F486597A69C1381C0F155 /* drumSynth.hpp */,
+				DD1910F01FFA368790970198 /* sequencer.cpp */,
+				DC2A5CFD59FF696D8C00AB4A /* sequencer.hpp */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
 
-FRAMEWORKS_DIR="${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}"
-echo "$FRAMEWORKS_DIR"
-if [ -d "$FRAMEWORKS_DIR" ] ; then
-FRAMEWORKS=$(find "${FRAMEWORKS_DIR}" -depth -type d -name "*.framework" -or -name "*.dylib" -or -name "*.bundle" | sed -e "s/\(.*framework\)/\1\/Versions\/A\//")
-RESULT=$?
-if [[ $RESULT != 0 ]] ; then
-exit 1
-fi
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* kickMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "kickMachine" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+				8466F1851C04CA0E00918B1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = kickMachine;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* kickMachineDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
 
-ITEMS="${FRAMEWORKS}"
-fi
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "kickMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* kickMachine */,
+			);
+		};
+/* End PBXProject section */
 
-LOGINITEMS_DIR="${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/"
-if [ -d "$LOGINITEMS_DIR" ] ; then
-LOGINITEMS=$(find "${LOGINITEMS_DIR}" -depth -type d -name "*.app")
-RESULT=$?
-if [[ $RESULT != 0 ]] ; then
-exit 1
-fi
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
-ITEMS="${ITEMS}"$'\n'"${LOGINITEMS}"
-fi
+/* Begin PBXShellScriptBuildPhase section */
+		8466F1851C04CA0E00918B1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"$APPSTORE\" ] ; then\necho \"Note: Not copying bin/data to App Package or doing App Code signing. Use AppStore target for AppStore distribution\";\nelse\n# Copy bin/data into App/Resources\nrsync -avz --exclude='.DS_Store' \"${SRCROOT}/bin/data/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/\"\n\n# ---- Code Sign App Package ----\n\n# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!\n\n# Verify that $CODE_SIGN_IDENTITY is set\nif [ -z \"${CODE_SIGN_IDENTITY}\" ] ; then\necho \"CODE_SIGN_IDENTITY needs to be set for framework code-signing\"\nexit 0\nfi\n\nif [ -z \"${CODE_SIGN_ENTITLEMENTS}\" ] ; then\necho \"CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\nexit 1\nelse\n# Code-signing is optional for non-release builds.\nexit 0\nfi\nfi\n\nITEMS=\"\"\n\nFRAMEWORKS_DIR=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\necho \"$FRAMEWORKS_DIR\"\nif [ -d \"$FRAMEWORKS_DIR\" ] ; then\nFRAMEWORKS=$(find \"${FRAMEWORKS_DIR}\" -depth -type d -name \"*.framework\" -or -name \"*.dylib\" -or -name \"*.bundle\" | sed -e \"s/\\(.*framework\\)/\\1\\/Versions\\/A\\//\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${FRAMEWORKS}\"\nfi\n\nLOGINITEMS_DIR=\"${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/\"\nif [ -d \"$LOGINITEMS_DIR\" ] ; then\nLOGINITEMS=$(find \"${LOGINITEMS_DIR}\" -depth -type d -name \"*.app\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${ITEMS}\"$'\\n'\"${LOGINITEMS}\"\nfi\n\n# Prefer the expanded name, if available.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\"\nif [ \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" = \"\" ] ; then\n# Fall back to old behavior.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${CODE_SIGN_IDENTITY}\"\nfi\n\necho \"Identity:\"\necho \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\"\n\necho \"Entitlements:\"\necho \"${CODE_SIGN_ENTITLEMENTS}\"\n\necho \"Found:\"\necho \"${ITEMS}\"\n\n# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.\nSAVED_IFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\n# Loop through all items.\nfor ITEM in $ITEMS;\ndo\necho \"Signing '${ITEM}'\"\ncodesign --force --verbose --sign \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" --entitlements \"${CODE_SIGN_ENTITLEMENTS}\" \"${ITEM}\"\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\necho \"Failed to sign '${ITEM}'.\"\nIFS=$SAVED_IFS\nexit 1\nfi\ndone\n\n# Restore $IFS.\nIFS=$SAVED_IFS\n\nfi\n";
+		};
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved \"$OF_PATH/libs/fmodex/lib/osx/libfmodex.dylib\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n\necho \"$GCC_PREPROCESSOR_DEFINITIONS\";\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
-# Prefer the expanded name, if available.
-CODE_SIGN_IDENTITY_FOR_ITEMS="${EXPANDED_CODE_SIGN_IDENTITY_NAME}"
-if [ "${CODE_SIGN_IDENTITY_FOR_ITEMS}" = "" ] ; then
-# Fall back to old behavior.
-CODE_SIGN_IDENTITY_FOR_ITEMS="${CODE_SIGN_IDENTITY}"
-fi
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				A0A4C99D2CEE00D427CA391E /* drumSynth.cpp in Sources */,
+				4B84A54619122AFA8571A5F0 /* sequencer.cpp in Sources */,
+				553557987D9AD7242CDB55DA /* ofxBaseGui.cpp in Sources */,
+				3AB00D038AAC4F131C336D23 /* ofxButton.cpp in Sources */,
+				1ED85081EBB2A3FB0F6EE214 /* ofxColorPicker.cpp in Sources */,
+				43FD8255E45567C34B2769E8 /* ofxGuiGroup.cpp in Sources */,
+				F9EE76804AA67102B5A30333 /* ofxInputField.cpp in Sources */,
+				EA756FA5EEB625E6A5300830 /* ofxLabel.cpp in Sources */,
+				905CC06B58E5CC55BCB1BC66 /* ofxPanel.cpp in Sources */,
+				0B451155F57FB50BC43FA16A /* ofxSlider.cpp in Sources */,
+				2565A52E53B6125066032FD7 /* ofxSliderGroup.cpp in Sources */,
+				6AB9107DEBCEDE7233199EF3 /* ofxToggle.cpp in Sources */,
+				5B4E6DBE07AE4366DB763C9B /* BaseEngine.cpp in Sources */,
+				70C1BED3013552799F49D085 /* BaseTheme.cpp in Sources */,
+				DBAF8550426D4573E0BCAEAA /* EngineGLFW.cpp in Sources */,
+				4A1DCD8F274A5DEED3BC8A64 /* EngineOpenGLES.cpp in Sources */,
+				498C5E73A7DA55C9E7991336 /* Gui.cpp in Sources */,
+				50B374D9096F673B2348DE26 /* Helpers.cpp in Sources */,
+				E87BCC69C2E0E0D3FB55C6A8 /* imgui.cpp in Sources */,
+				03512EEC3926A67EE708314E /* imgui_demo.cpp in Sources */,
+				35B92B4173F92A10833CA9D6 /* imgui_draw.cpp in Sources */,
+				29DFC2B3B826F47787F252FF /* fft.cpp in Sources */,
+				21BFFFCAF235CDBD15C1100B /* maxiAtoms.cpp in Sources */,
+				6A1ECE482778A6F071451CE2 /* maxiBark.cpp in Sources */,
+				E5872FE9ACCEAB9113861579 /* maxiFFT.cpp in Sources */,
+				069EF97B97A45D38B28D9654 /* maxiGrains.cpp in Sources */,
+				D3C879857F4DF59F943E25AE /* maxiMFCC.cpp in Sources */,
+				DE0AD615952253527AE95104 /* maximilian.cpp in Sources */,
+				1E4C414E98695D8F9F57F318 /* stb_vorbis.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
-echo "Identity:"
-echo "${CODE_SIGN_IDENTITY_FOR_ITEMS}"
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
-echo "Entitlements:"
-echo "${CODE_SIGN_ENTITLEMENTS}"
+/* Begin XCBuildConfiguration section */
+		99FA3DBB1C7456C400CFA0EE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DISTRIBUTION=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = AppStore;
+		};
+		99FA3DBC1C7456C400CFA0EE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "APPSTORE=1";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = AppStore;
+		};
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs,
+					../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
 
-echo "Found:"
-echo "${ITEMS}"
-
-# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.
-SAVED_IFS=$IFS
-IFS=$(echo -en "\n\b")
-
-# Loop through all items.
-for ITEM in $ITEMS;
-do
-echo "Signing '${ITEM}'"
-codesign --force --verbose --sign "${CODE_SIGN_IDENTITY_FOR_ITEMS}" --entitlements "${CODE_SIGN_ENTITLEMENTS}" "${ITEM}"
-RESULT=$?
-if [[ $RESULT != 0 ]] ; then
-echo "Failed to sign '${ITEM}'."
-IFS=$SAVED_IFS
-exit 1
-fi
-done
-
-# Restore $IFS.
-IFS=$SAVED_IFS
-
-fi
-</string>
-			</dict>
-			<key>99FA3DBB1C7456C400CFA0EE</key>
-			<dict>
-				<key>baseConfigurationReference</key>
-				<string>E4EB6923138AFD0F00A09F29</string>
-				<key>buildSettings</key>
-				<dict>
-					<key>HEADER_SEARCH_PATHS</key>
-					<array>
-						<string>$(OF_CORE_HEADERS)</string>
-						<string>src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src</string>
-					</array>
-					<key>CONFIGURATION_BUILD_DIR</key>
-					<string>$(SRCROOT)/bin/</string>
-					<key>COPY_PHASE_STRIP</key>
-					<string>YES</string>
-					<key>DEAD_CODE_STRIPPING</key>
-					<string>YES</string>
-					<key>GCC_AUTO_VECTORIZATION</key>
-					<string>YES</string>
-					<key>GCC_ENABLE_SSE3_EXTENSIONS</key>
-					<string>YES</string>
-					<key>GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS</key>
-					<string>YES</string>
-					<key>GCC_INLINES_ARE_PRIVATE_EXTERN</key>
-					<string>NO</string>
-					<key>GCC_OPTIMIZATION_LEVEL</key>
-					<string>3</string>
-					<key>GCC_PREPROCESSOR_DEFINITIONS[arch=*]</key>
-					<string>DISTRIBUTION=1</string>
-					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-					<string>NO</string>
-					<key>GCC_UNROLL_LOOPS</key>
-					<string>YES</string>
-					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
-					<string>YES</string>
-					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
-					<string>NO</string>
-					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
-					<string>NO</string>
-					<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-					<string>NO</string>
-					<key>GCC_WARN_UNUSED_VALUE</key>
-					<string>NO</string>
-					<key>GCC_WARN_UNUSED_VARIABLE</key>
-					<string>NO</string>
-					<key>MACOSX_DEPLOYMENT_TARGET</key>
-					<string>10.9</string>
-					<key>OTHER_CPLUSPLUSFLAGS</key>
-					<array>
-						<string>-D__MACOSX_CORE__</string>
-						<string>-mtune=native</string>
-					</array>
-					<key>SDKROOT</key>
-					<string>macosx</string>
-				</dict>
-				<key>isa</key>
-				<string>XCBuildConfiguration</string>
-				<key>name</key>
-				<string>AppStore</string>
-			</dict>
-			<key>99FA3DBC1C7456C400CFA0EE</key>
-			<dict>
-				<key>baseConfigurationReference</key>
-				<string>E4EB6923138AFD0F00A09F29</string>
-				<key>buildSettings</key>
-				<dict>
-					<key>HEADER_SEARCH_PATHS</key>
-					<array>
-						<string>$(OF_CORE_HEADERS)</string>
-						<string>src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src</string>
-					</array>
-					<key>COMBINE_HIDPI_IMAGES</key>
-					<string>YES</string>
-					<key>COPY_PHASE_STRIP</key>
-					<string>YES</string>
-					<key>FRAMEWORK_SEARCH_PATHS</key>
-					<string>$(inherited)</string>
-					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
-					<string>YES</string>
-					<key>GCC_MODEL_TUNING</key>
-					<string>NONE</string>
-					<key>GCC_PREPROCESSOR_DEFINITIONS[arch=*]</key>
-					<string>APPSTORE=1</string>
-					<key>ICON</key>
-					<string>$(ICON_NAME_RELEASE)</string>
-					<key>ICON_FILE</key>
-					<string>$(ICON_FILE_PATH)$(ICON)</string>
-					<key>INFOPLIST_FILE</key>
-					<string>openFrameworks-Info.plist</string>
-					<key>INSTALL_PATH</key>
-					<string>/Applications</string>
-					<key>LIBRARY_SEARCH_PATHS</key>
-					<string>$(inherited)</string>
-					<key>PRODUCT_NAME</key>
-					<string>$(TARGET_NAME)</string>
-					<key>WRAPPER_EXTENSION</key>
-					<string>app</string>
-					<key>baseConfigurationReference</key>
-					<string>E4EB6923138AFD0F00A09F29</string>
-				</dict>
-				<key>isa</key>
-				<string>XCBuildConfiguration</string>
-				<key>name</key>
-				<string>AppStore</string>
-			</dict>
-			<key>BB4B014C10F69532006C3DED</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>480A780D8D0308AE4A368801</string>
-					<string>768C3255AF2F3E1A78DC4DF4</string>
-					<string>6234D3BCE87D1C3BA2230F19</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>addons</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>E4328143138ABC890047C5CB</key>
-			<dict>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>lastKnownFileType</key>
-				<string>wrapper.pb-project</string>
-				<key>name</key>
-				<string>openFrameworksLib.xcodeproj</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E4328144138ABC890047C5CB</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>E4328148138ABC890047C5CB</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>Products</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>E4328147138ABC890047C5CB</key>
-			<dict>
-				<key>containerPortal</key>
-				<string>E4328143138ABC890047C5CB</string>
-				<key>isa</key>
-				<string>PBXContainerItemProxy</string>
-				<key>proxyType</key>
-				<string>2</string>
-				<key>remoteGlobalIDString</key>
-				<string>E4B27C1510CBEB8E00536013</string>
-				<key>remoteInfo</key>
-				<string>openFrameworks</string>
-			</dict>
-			<key>E4328148138ABC890047C5CB</key>
-			<dict>
-				<key>fileType</key>
-				<string>archive.ar</string>
-				<key>isa</key>
-				<string>PBXReferenceProxy</string>
-				<key>path</key>
-				<string>openFrameworksDebug.a</string>
-				<key>remoteRef</key>
-				<string>E4328147138ABC890047C5CB</string>
-				<key>sourceTree</key>
-				<string>BUILT_PRODUCTS_DIR</string>
-			</dict>
-			<key>E4328149138ABC9F0047C5CB</key>
-			<dict>
-				<key>fileRef</key>
-				<string>E4328148138ABC890047C5CB</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>E4B69B4A0A3A1720003C02F2</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>E4B6FCAD0C3E899E008CF71C</string>
-					<string>E4EB6923138AFD0F00A09F29</string>
-					<string>E4B69E1C0A3A1BDC003C02F2</string>
-					<string>E4EEC9E9138DF44700A80321</string>
-					<string>BB4B014C10F69532006C3DED</string>
-					<string>6948EE371B920CB800B5AC1A</string>
-					<string>E4B69B5B0A3A1756003C02F2</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>E4B69B4C0A3A1720003C02F2</key>
-			<dict>
-				<key>attributes</key>
-				<dict>
-					<key>LastUpgradeCheck</key>
-					<string>0600</string>
-				</dict>
-				<key>buildConfigurationList</key>
-				<string>E4B69B4D0A3A1720003C02F2</string>
-				<key>compatibilityVersion</key>
-				<string>Xcode 3.2</string>
-				<key>developmentRegion</key>
-				<string>English</string>
-				<key>hasScannedForEncodings</key>
-				<string>0</string>
-				<key>isa</key>
-				<string>PBXProject</string>
-				<key>knownRegions</key>
-				<array>
-					<string>English</string>
-					<string>Japanese</string>
-					<string>French</string>
-					<string>German</string>
-				</array>
-				<key>mainGroup</key>
-				<string>E4B69B4A0A3A1720003C02F2</string>
-				<key>productRefGroup</key>
-				<string>E4B69B4A0A3A1720003C02F2</string>
-				<key>projectDirPath</key>
-				<string />
-				<key>projectReferences</key>
-				<array>
-					<dict>
-						<key>ProductGroup</key>
-						<string>E4328144138ABC890047C5CB</string>
-						<key>ProjectRef</key>
-						<string>E4328143138ABC890047C5CB</string>
-					</dict>
-				</array>
-				<key>projectRoot</key>
-				<string />
-				<key>targets</key>
-				<array>
-					<string>E4B69B5A0A3A1756003C02F2</string>
-				</array>
-			</dict>
-			<key>E4B69B4D0A3A1720003C02F2</key>
-			<dict>
-				<key>buildConfigurations</key>
-				<array>
-					<string>E4B69B4E0A3A1720003C02F2</string>
-					<string>E4B69B4F0A3A1720003C02F2</string>
-					<string>99FA3DBB1C7456C400CFA0EE</string>
-				</array>
-				<key>defaultConfigurationIsVisible</key>
-				<string>0</string>
-				<key>defaultConfigurationName</key>
-				<string>Release</string>
-				<key>isa</key>
-				<string>XCConfigurationList</string>
-			</dict>
-			<key>E4B69B4E0A3A1720003C02F2</key>
-			<dict>
-				<key>baseConfigurationReference</key>
-				<string>E4EB6923138AFD0F00A09F29</string>
-				<key>buildSettings</key>
-				<dict>
-					<key>HEADER_SEARCH_PATHS</key>
-					<array>
-						<string>$(OF_CORE_HEADERS)</string>
-						<string>src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src</string>
-					</array>
-					<key>CONFIGURATION_BUILD_DIR</key>
-					<string>$(SRCROOT)/bin/</string>
-					<key>COPY_PHASE_STRIP</key>
-					<string>NO</string>
-					<key>DEAD_CODE_STRIPPING</key>
-					<string>YES</string>
-					<key>GCC_AUTO_VECTORIZATION</key>
-					<string>YES</string>
-					<key>GCC_ENABLE_SSE3_EXTENSIONS</key>
-					<string>YES</string>
-					<key>GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS</key>
-					<string>YES</string>
-					<key>GCC_INLINES_ARE_PRIVATE_EXTERN</key>
-					<string>NO</string>
-					<key>GCC_OPTIMIZATION_LEVEL</key>
-					<string>0</string>
-					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-					<string>NO</string>
-					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
-					<string>YES</string>
-					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
-					<string>NO</string>
-					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
-					<string>NO</string>
-					<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-					<string>NO</string>
-					<key>GCC_WARN_UNUSED_VALUE</key>
-					<string>NO</string>
-					<key>GCC_WARN_UNUSED_VARIABLE</key>
-					<string>NO</string>
-					<key>MACOSX_DEPLOYMENT_TARGET</key>
-					<string>10.9</string>
-					<key>ONLY_ACTIVE_ARCH</key>
-					<string>YES</string>
-					<key>OTHER_CPLUSPLUSFLAGS</key>
-					<array>
-						<string>-D__MACOSX_CORE__</string>
-						<string>-mtune=native</string>
-					</array>
-					<key>SDKROOT</key>
-					<string>macosx</string>
-				</dict>
-				<key>isa</key>
-				<string>XCBuildConfiguration</string>
-				<key>name</key>
-				<string>Debug</string>
-			</dict>
-			<key>E4B69B4F0A3A1720003C02F2</key>
-			<dict>
-				<key>baseConfigurationReference</key>
-				<string>E4EB6923138AFD0F00A09F29</string>
-				<key>buildSettings</key>
-				<dict>
-					<key>HEADER_SEARCH_PATHS</key>
-					<array>
-						<string>$(OF_CORE_HEADERS)</string>
-						<string>src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src</string>
-					</array>
-					<key>CONFIGURATION_BUILD_DIR</key>
-					<string>$(SRCROOT)/bin/</string>
-					<key>COPY_PHASE_STRIP</key>
-					<string>YES</string>
-					<key>DEAD_CODE_STRIPPING</key>
-					<string>YES</string>
-					<key>GCC_AUTO_VECTORIZATION</key>
-					<string>YES</string>
-					<key>GCC_ENABLE_SSE3_EXTENSIONS</key>
-					<string>YES</string>
-					<key>GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS</key>
-					<string>YES</string>
-					<key>GCC_INLINES_ARE_PRIVATE_EXTERN</key>
-					<string>NO</string>
-					<key>GCC_OPTIMIZATION_LEVEL</key>
-					<string>3</string>
-					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-					<string>NO</string>
-					<key>GCC_UNROLL_LOOPS</key>
-					<string>YES</string>
-					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
-					<string>YES</string>
-					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
-					<string>NO</string>
-					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
-					<string>NO</string>
-					<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-					<string>NO</string>
-					<key>GCC_WARN_UNUSED_VALUE</key>
-					<string>NO</string>
-					<key>GCC_WARN_UNUSED_VARIABLE</key>
-					<string>NO</string>
-					<key>MACOSX_DEPLOYMENT_TARGET</key>
-					<string>10.9</string>
-					<key>OTHER_CPLUSPLUSFLAGS</key>
-					<array>
-						<string>-D__MACOSX_CORE__</string>
-						<string>-mtune=native</string>
-					</array>
-					<key>SDKROOT</key>
-					<string>macosx</string>
-				</dict>
-				<key>isa</key>
-				<string>XCBuildConfiguration</string>
-				<key>name</key>
-				<string>Release</string>
-			</dict>
-			<key>E4B69B580A3A1756003C02F2</key>
-			<dict>
-				<key>buildActionMask</key>
-				<string>2147483647</string>
-				<key>files</key>
-				<array>
-					<string>E4B69E200A3A1BDC003C02F2</string>
-					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>A0A4C99D2CEE00D427CA391E</string>
-					<string>4B84A54619122AFA8571A5F0</string>
-					<string>ED0865F3F914A77099BF90C1</string>
-					<string>553557987D9AD7242CDB55DA</string>
-					<string>3AB00D038AAC4F131C336D23</string>
-					<string>1ED85081EBB2A3FB0F6EE214</string>
-					<string>43FD8255E45567C34B2769E8</string>
-					<string>F9EE76804AA67102B5A30333</string>
-					<string>EA756FA5EEB625E6A5300830</string>
-					<string>905CC06B58E5CC55BCB1BC66</string>
-					<string>0B451155F57FB50BC43FA16A</string>
-					<string>2565A52E53B6125066032FD7</string>
-					<string>6AB9107DEBCEDE7233199EF3</string>
-					<string>5B4E6DBE07AE4366DB763C9B</string>
-					<string>70C1BED3013552799F49D085</string>
-					<string>DBAF8550426D4573E0BCAEAA</string>
-					<string>4A1DCD8F274A5DEED3BC8A64</string>
-					<string>498C5E73A7DA55C9E7991336</string>
-					<string>50B374D9096F673B2348DE26</string>
-					<string>E87BCC69C2E0E0D3FB55C6A8</string>
-					<string>03512EEC3926A67EE708314E</string>
-					<string>35B92B4173F92A10833CA9D6</string>
-					<string>29DFC2B3B826F47787F252FF</string>
-					<string>21BFFFCAF235CDBD15C1100B</string>
-					<string>6A1ECE482778A6F071451CE2</string>
-					<string>E5872FE9ACCEAB9113861579</string>
-					<string>069EF97B97A45D38B28D9654</string>
-					<string>D3C879857F4DF59F943E25AE</string>
-					<string>DE0AD615952253527AE95104</string>
-					<string>1E4C414E98695D8F9F57F318</string>
-				</array>
-				<key>isa</key>
-				<string>PBXSourcesBuildPhase</string>
-				<key>runOnlyForDeploymentPostprocessing</key>
-				<string>0</string>
-			</dict>
-			<key>E4B69B590A3A1756003C02F2</key>
-			<dict>
-				<key>buildActionMask</key>
-				<string>2147483647</string>
-				<key>files</key>
-				<array>
-					<string>E4328149138ABC9F0047C5CB</string>
-				</array>
-				<key>isa</key>
-				<string>PBXFrameworksBuildPhase</string>
-				<key>runOnlyForDeploymentPostprocessing</key>
-				<string>0</string>
-			</dict>
-			<key>E4B69B5A0A3A1756003C02F2</key>
-			<dict>
-				<key>buildConfigurationList</key>
-				<string>E4B69B5F0A3A1757003C02F2</string>
-				<key>buildPhases</key>
-				<array>
-					<string>E4B69B580A3A1756003C02F2</string>
-					<string>E4B69B590A3A1756003C02F2</string>
-					<string>E4B6FFFD0C3F9AB9008CF71C</string>
-					<string>E4C2427710CC5ABF004149E2</string>
-					<string>8466F1851C04CA0E00918B1C</string>
-				</array>
-				<key>buildRules</key>
-				<array />
-				<key>dependencies</key>
-				<array>
-					<string>E4EEB9AC138B136A00A80321</string>
-				</array>
-				<key>isa</key>
-				<string>PBXNativeTarget</string>
-				<key>name</key>
-				<string>kickMachine</string>
-				<key>productName</key>
-				<string>myOFApp</string>
-				<key>productReference</key>
-				<string>E4B69B5B0A3A1756003C02F2</string>
-				<key>productType</key>
-				<string>com.apple.product-type.application</string>
-			</dict>
-			<key>E4B69B5B0A3A1756003C02F2</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>wrapper.application</string>
-				<key>includeInIndex</key>
-				<string>0</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>path</key>
-				<string>kickMachineDebug.app</string>
-				<key>sourceTree</key>
-				<string>BUILT_PRODUCTS_DIR</string>
-			</dict>
-			<key>E4B69B5F0A3A1757003C02F2</key>
-			<dict>
-				<key>buildConfigurations</key>
-				<array>
-					<string>E4B69B600A3A1757003C02F2</string>
-					<string>E4B69B610A3A1757003C02F2</string>
-					<string>99FA3DBC1C7456C400CFA0EE</string>
-				</array>
-				<key>defaultConfigurationIsVisible</key>
-				<string>0</string>
-				<key>defaultConfigurationName</key>
-				<string>Release</string>
-				<key>isa</key>
-				<string>XCConfigurationList</string>
-			</dict>
-			<key>E4B69B600A3A1757003C02F2</key>
-			<dict>
-				<key>baseConfigurationReference</key>
-				<string>E4EB6923138AFD0F00A09F29</string>
-				<key>buildSettings</key>
-				<dict>
-					<key>HEADER_SEARCH_PATHS</key>
-					<array>
-						<string>$(OF_CORE_HEADERS)</string>
-						<string>src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src</string>
-					</array>
-					<key>COMBINE_HIDPI_IMAGES</key>
-					<string>YES</string>
-					<key>COPY_PHASE_STRIP</key>
-					<string>NO</string>
-					<key>FRAMEWORK_SEARCH_PATHS</key>
-					<string>$(inherited)</string>
-					<key>GCC_DYNAMIC_NO_PIC</key>
-					<string>NO</string>
-					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
-					<string>YES</string>
-					<key>GCC_MODEL_TUNING</key>
-					<string>NONE</string>
-					<key>ICON</key>
-					<string>$(ICON_NAME_DEBUG)</string>
-					<key>ICON_FILE</key>
-					<string>$(ICON_FILE_PATH)$(ICON)</string>
-					<key>INFOPLIST_FILE</key>
-					<string>openFrameworks-Info.plist</string>
-					<key>INSTALL_PATH</key>
-					<string>/Applications</string>
-					<key>LIBRARY_SEARCH_PATHS</key>
-					<string>$(inherited)</string>
-					<key>PRODUCT_NAME</key>
-					<string>$(TARGET_NAME)Debug</string>
-					<key>WRAPPER_EXTENSION</key>
-					<string>app</string>
-				</dict>
-				<key>isa</key>
-				<string>XCBuildConfiguration</string>
-				<key>name</key>
-				<string>Debug</string>
-			</dict>
-			<key>E4B69B610A3A1757003C02F2</key>
-			<dict>
-				<key>baseConfigurationReference</key>
-				<string>E4EB6923138AFD0F00A09F29</string>
-				<key>buildSettings</key>
-				<dict>
-					<key>HEADER_SEARCH_PATHS</key>
-					<array>
-						<string>$(OF_CORE_HEADERS)</string>
-						<string>src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/libs/imgui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxImGui/src</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/libs</string>
-						<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/addons/ofxMaxim/src</string>
-					</array>
-					<key>COMBINE_HIDPI_IMAGES</key>
-					<string>YES</string>
-					<key>COPY_PHASE_STRIP</key>
-					<string>YES</string>
-					<key>FRAMEWORK_SEARCH_PATHS</key>
-					<string>$(inherited)</string>
-					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
-					<string>YES</string>
-					<key>GCC_MODEL_TUNING</key>
-					<string>NONE</string>
-					<key>ICON</key>
-					<string>$(ICON_NAME_RELEASE)</string>
-					<key>ICON_FILE</key>
-					<string>$(ICON_FILE_PATH)$(ICON)</string>
-					<key>INFOPLIST_FILE</key>
-					<string>openFrameworks-Info.plist</string>
-					<key>INSTALL_PATH</key>
-					<string>/Applications</string>
-					<key>LIBRARY_SEARCH_PATHS</key>
-					<string>$(inherited)</string>
-					<key>PRODUCT_NAME</key>
-					<string>$(TARGET_NAME)</string>
-					<key>WRAPPER_EXTENSION</key>
-					<string>app</string>
-					<key>baseConfigurationReference</key>
-					<string>E4EB6923138AFD0F00A09F29</string>
-				</dict>
-				<key>isa</key>
-				<string>XCBuildConfiguration</string>
-				<key>name</key>
-				<string>Release</string>
-			</dict>
-			<key>E4B69E1C0A3A1BDC003C02F2</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>E4B69E1D0A3A1BDC003C02F2</string>
-					<string>E4B69E1E0A3A1BDC003C02F2</string>
-					<string>E4B69E1F0A3A1BDC003C02F2</string>
-					<string>D083C732F0379512349E232E</string>
-					<string>F55F486597A69C1381C0F155</string>
-					<string>DD1910F01FFA368790970198</string>
-					<string>DC2A5CFD59FF696D8C00AB4A</string>
-					<string>145E46A5BEB0D791247462D8</string>
-					<string>FC762C74FD0F2242EC0E7BDC</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>path</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E4B69E1D0A3A1BDC003C02F2</key>
-			<dict>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>lastKnownFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>name</key>
-				<string>main.cpp</string>
-				<key>path</key>
-				<string>src/main.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E4B69E1E0A3A1BDC003C02F2</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofApp.cpp</string>
-				<key>path</key>
-				<string>src/ofApp.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E4B69E1F0A3A1BDC003C02F2</key>
-			<dict>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>lastKnownFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>name</key>
-				<string>ofApp.h</string>
-				<key>path</key>
-				<string>src/ofApp.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E4B69E200A3A1BDC003C02F2</key>
-			<dict>
-				<key>fileRef</key>
-				<string>E4B69E1D0A3A1BDC003C02F2</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>E4B69E210A3A1BDC003C02F2</key>
-			<dict>
-				<key>fileRef</key>
-				<string>E4B69E1E0A3A1BDC003C02F2</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>E4B6FCAD0C3E899E008CF71C</key>
-			<dict>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>lastKnownFileType</key>
-				<string>text.plist.xml</string>
-				<key>path</key>
-				<string>openFrameworks-Info.plist</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>E4B6FFFD0C3F9AB9008CF71C</key>
-			<dict>
-				<key>buildActionMask</key>
-				<string>2147483647</string>
-				<key>files</key>
-				<array />
-				<key>inputPaths</key>
-				<array />
-				<key>isa</key>
-				<string>PBXShellScriptBuildPhase</string>
-				<key>outputPaths</key>
-				<array />
-				<key>runOnlyForDeploymentPostprocessing</key>
-				<string>0</string>
-				<key>shellPath</key>
-				<string>/bin/sh</string>
-				<key>shellScript</key>
-				<string>mkdir -p "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
-# Copy default icon file into App/Resources
-rsync -aved "$ICON_FILE" "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
-# Copy libfmod and change install directory for fmod to run
-rsync -aved "$OF_PATH/libs/fmodex/lib/osx/libfmodex.dylib" "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/";
-install_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME";
-
-echo "$GCC_PREPROCESSOR_DEFINITIONS";
-</string>
-			</dict>
-			<key>E4C2427710CC5ABF004149E2</key>
-			<dict>
-				<key>buildActionMask</key>
-				<string>2147483647</string>
-				<key>dstPath</key>
-				<string />
-				<key>dstSubfolderSpec</key>
-				<string>10</string>
-				<key>files</key>
-				<array />
-				<key>isa</key>
-				<string>PBXCopyFilesBuildPhase</string>
-				<key>runOnlyForDeploymentPostprocessing</key>
-				<string>0</string>
-			</dict>
-			<key>E4EB691F138AFCF100A09F29</key>
-			<dict>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>lastKnownFileType</key>
-				<string>text.xcconfig</string>
-				<key>name</key>
-				<string>CoreOF.xcconfig</string>
-				<key>path</key>
-				<string>../../../../../../../../../Users/edmundoetgen/Documents/OFX/OFX/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>E4EB6923138AFD0F00A09F29</key>
-			<dict>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>lastKnownFileType</key>
-				<string>text.xcconfig</string>
-				<key>path</key>
-				<string>Project.xcconfig</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>E4EEB9AB138B136A00A80321</key>
-			<dict>
-				<key>containerPortal</key>
-				<string>E4328143138ABC890047C5CB</string>
-				<key>isa</key>
-				<string>PBXContainerItemProxy</string>
-				<key>proxyType</key>
-				<string>1</string>
-				<key>remoteGlobalIDString</key>
-				<string>E4B27C1410CBEB8E00536013</string>
-				<key>remoteInfo</key>
-				<string>openFrameworks</string>
-			</dict>
-			<key>E4EEB9AC138B136A00A80321</key>
-			<dict>
-				<key>isa</key>
-				<string>PBXTargetDependency</string>
-				<key>name</key>
-				<string>openFrameworks</string>
-				<key>targetProxy</key>
-				<string>E4EEB9AB138B136A00A80321</string>
-			</dict>
-			<key>E4EEC9E9138DF44700A80321</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>E4EB691F138AFCF100A09F29</string>
-					<string>E4328143138ABC890047C5CB</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>openFrameworks</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-		</dict>
-		<key>rootObject</key>
-		<string>E4B69B4C0A3A1720003C02F2</string>
-	</dict>
-</plist>
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "kickMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+				99FA3DBB1C7456C400CFA0EE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "kickMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+				99FA3DBC1C7456C400CFA0EE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}

@@ -42,26 +42,6 @@ drumSynth::drumSynth(double freq, double pma, float gain_, float om, float tm, f
     noiseAmpEnv.trigger = 0;
     
   
-
- 
-    
-//    gui.setup();
-//   // gui.add(tempo.setup("tempo",128,60,2510));
-//    gui.add(gainS.setup("Volume",0.5,0,1));
-//    gui.add(frequencyS.setup("pitch",50,20,500));
-//    gui.add(modAmount.setup("modAmount",1.5,1,5));
-//    gui.add(ampEnvAtk.setup("Amp Attack",0,0,1000));
-//    gui.add(ampEnvRls.setup("Amp Relase",5000,0,10000));
-//    gui.add(modEnvAtk.setup("Mod Attack",0,1,100));
-//    gui.add(modEnvRls.setup("Mod Relase",60,1,1000));
-//    gui.add(noiseEnvAtk.setup("noise Attack",0,0,100));
-//    gui.add(noiseEnvRls.setup("noise Relase",10,0,100));
-//    gui.add(pitchMix.setup("WaveShape",0.8,0,1));
-//    gui.add(noiseMixS.setup("noise",0.2,0,1));
-//    gui.add(toneMixS.setup("tone level",0.2,0,1));
-//    gui.add(buttOne.setup("1"));
-//    
-
 }
 
 double drumSynth::play(){
@@ -70,13 +50,12 @@ double drumSynth::play(){
     pitchModOut = pitchMod.adsr(pitchModAmount, pitchMod.trigger);
     noiseEnvOut = noiseAmpEnv.adsr(1., noiseAmpEnv.trigger);
 
-//  
+  
     float sineMix = oscMix;
     float sawMix = (1.-oscMix);
    
     double sineOutput = sine.sinewave(frequency*(1+pitchModOut))*oscEnvOut;
     double sawOutput = saw.triangle(frequency*(1+pitchModOut))*oscEnvOut;
-    //double sineOutput = sine.sinewave(frequency*FM.phasor(100000, 3, 0.1))*oscEnvOut;
     double noiseOutput = noise.noise()*noiseEnvOut;
     
     output = (((sineMix*sineOutput) + (sawMix*sawOutput)) * toneMix) + (noiseOutput * noiseMix);
@@ -177,18 +156,6 @@ void drumSynth::randomiseSeq(){
 
 
 
-void drumSynth::update(){
-//    
-//    setFrequency(frequencyS);
-//    setGain(gainS);
-//    setModAmount(modAmount);
-//    setOscEnv(ampEnvAtk, 1,1, ampEnvRls);
-//    setModEnv(modEnvAtk, 1,1, modEnvRls);
-//    setNoiseEnv(noiseEnvAtk, 1,1, noiseEnvRls);
-//    setOscMix(pitchMix);
-//    setNoiseMix(noiseMixS);
-//    setToneMix(toneMixS);
-}
 
 void drumSynth::randomisePar(){
 //frequency = ofRandom(20,100);

@@ -15,7 +15,7 @@
 class drumSynth{
     
 public:
-   // drumSynth(double freq, double pma, float gain_, float om, float tm, float nm, float oa, float oR, float pa, float pr, float na, float nr);
+  
        drumSynth(double freq = 40, double pma = 1.5, float gain_ =0.5, float om = 0.9, float tm = 1.0, float nm = 0.1, float oa = 0, float oR = 5000, float pa = 0, float pr = 10, float na = 0, float nr = 5);
     
     double play();
@@ -57,21 +57,6 @@ public:
     float oscMix;
     float noiseMix;
     float toneMix;
-    
-    //ofxIntSlider tempo;
-//    ofxFloatSlider gainS;
-//    ofxFloatSlider frequencyS;
-//    ofxFloatSlider modAmount;
-//    ofxFloatSlider ampEnvAtk;
-//    ofxFloatSlider ampEnvRls;
-//    ofxFloatSlider modEnvAtk;
-//    ofxFloatSlider modEnvRls;
-//    ofxFloatSlider noiseEnvAtk;
-//    ofxFloatSlider noiseEnvRls;
-//    ofxFloatSlider pitchMix;
-//    ofxFloatSlider noiseMixS;
-//    ofxFloatSlider toneMixS;
-//    ofxPanel gui;
-
+   
     int sequence [16] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 };

@@ -24,10 +24,7 @@ public:
     void step(int playHead);
     void update();
     
-//    drumSynth chanOne;
-//    drumSynth chanTwo;
-//    drumSynth chanThree;
-//    drumSynth chanFour;
+
     static const int numChannels = 8;
      
     drumSynth channels[numChannels];
@@ -41,19 +38,5 @@ public:
     
     float frequencies[numChannels], modAmounts[numChannels], ampEnvAtks[numChannels], ampEnvRlss[numChannels], modEnvAtks[numChannels], modEnvRlss[numChannels], noiseEnvAtks[numChannels],noiseEnvRlss[numChannels], pitchMixs[numChannels], noiseMixs[numChannels], toneMixs[numChannels] ;
     
-//    ofxIntSlider tempo;
-//    ofxFloatSlider gain;
-//    ofxFloatSlider frequency;
-//    ofxFloatSlider modAmount;
-//    ofxFloatSlider ampEnvAtk;
-//    ofxFloatSlider ampEnvRls;
-//    ofxFloatSlider modEnvAtk;
-//    ofxFloatSlider modEnvRls;
-//    ofxFloatSlider noiseEnvAtk;
-//    ofxFloatSlider noiseEnvRls;
-//    ofxFloatSlider pitchMix;
-//    ofxFloatSlider noiseMix;
-//    ofxFloatSlider toneMix;
-//    ofxPanel gui;
 
 };
