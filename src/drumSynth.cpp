@@ -44,8 +44,9 @@ drumSynth::drumSynth(double freq, double pma, float gain_, float om, float tm, f
   
 }
 
-double drumSynth::play(){
+double drumSynth::play(bool isMute){
 
+    if(!isMute){
     oscEnvOut = oscAmpEnv.adsr(1., oscAmpEnv.trigger);
     pitchModOut = pitchMod.adsr(pitchModAmount, pitchMod.trigger);
     noiseEnvOut = noiseAmpEnv.adsr(1., noiseAmpEnv.trigger);
@@ -78,7 +79,9 @@ double drumSynth::play(){
     
    
     return output * gain;
-
+    }else{
+        return 0;
+    }
 }
 
 void drumSynth::trigger(){
@@ -157,21 +160,3 @@ void drumSynth::randomiseSeq(){
 
 
 
-void drumSynth::randomisePar(){
-//frequency = ofRandom(20,100);
-//    setFrequency(frequency);
-//modAmount = ofRandom(1,5);
-//setModAmount(modAmount);
-//ampEnvRls = ofRandom(1,10000);
-//
-//setOscEnv(1, 1,1, ampEnvRls);
-//modEnvRls = ofRandom(1,1000);
-//setModEnv(1, 1,1, modEnvRls);
-//noiseEnvAtk = ofRandom(1,100);
-//noiseEnvRls = ofRandom(1,100);
-//setNoiseEnv(noiseEnvAtk, 1,1, noiseEnvRls);
-//pitchMix = ofRandom(1);
-//setOscMix(pitchMix);
-//noiseMix = ofRandom(0.2);
-//setNoiseMix(noiseMix);
-}

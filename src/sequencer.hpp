@@ -29,6 +29,10 @@ public:
      
     drumSynth channels[numChannels];
     bool steps[16][numChannels];
+    bool mutes[numChannels];
+
+    bool randomise = false;
+    bool clear = false;
     ofxImGui::Gui gui;
 
     int tempo;

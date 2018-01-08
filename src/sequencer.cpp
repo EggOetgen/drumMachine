@@ -54,6 +54,8 @@ sequencer::sequencer(){
     memcpy(channels[7].sequence, chan8Seq, sizeof(chan8Seq));
    
     for(int row = 0; row < numChannels; row++){
+      
+         mutes[row] = false ;
 
         for(int col = 0; col < 16; col++){
             steps[col][row] = false;
@@ -67,7 +69,7 @@ double sequencer::play(){
     double output = 0;
 
 
-    output = channels[0].play() +channels[1].play() + channels[3].play() + channels[2].play() + channels[4].play() + channels[5].play() + channels[6].play() + channels[7].play();
+    output = channels[0].play(mutes[0]) +channels[1].play(mutes[1]) + channels[3].play(mutes[3]) + channels[2].play(mutes[2]) + channels[4].play(mutes[4]) + channels[5].play(mutes[5]) + channels[6].play(mutes[6]) + channels[7].play(mutes[7]);
     if (output > 1) output = 0.7;
     return output;
 }
@@ -89,6 +91,9 @@ void sequencer::display(){
     {
         ImGui::SliderInt("Tempo", &tempo, 60, 2510);
         ImGui::SliderFloat("Gain", &gain, 0.0f, 1.0f);
+        ImGui::Checkbox("Randomise?",&randomise);
+        ImGui::Checkbox("Clear",&clear);
+
         for(int i = 0; i < numChannels; i ++){
             string name = std::to_string(i);
             char const* test = name.c_str();
@@ -96,8 +101,12 @@ void sequencer::display(){
         {
             ImGui::TreePop();
       
-            string temp = "Oscillator " + name + " Frequency";
+            string temp = "Oscillator " + name + " Mute";
             char const* tempChar = temp.c_str();
+            ImGui::Checkbox(tempChar,&mutes[i]);
+
+             temp = "Oscillator " + name + " Frequency";
+             tempChar = temp.c_str();
             ImGui::SliderFloat(tempChar, &frequencies[i], 20.0f, 500.0f);
           
             temp = "Oscillator " + name + " Modulation Amount";
@@ -172,10 +181,27 @@ void sequencer::update(){
     for(int row = 0; row < numChannels; row++){
         for(int col = 0; col < 16; col++){
             channels[row].sequence[col] = steps[col][row];
+            
+            
+            if(randomise){
+                steps[col][row] = false;
+                float r = ofRandom(1.0);
+                if (r<0.2){
+                    steps[col][row] = true;
+                }
+                
+            }
+            if(clear){
+                steps[col][row] = false;
+                           }
+
         }
     }
+    randomise = false;
+    clear = false;
 
-    
+   
+  
     for(int i = 0; i < numChannels; i++){
 
         channels[i].setGain(gain);
