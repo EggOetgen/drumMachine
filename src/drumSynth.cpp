@@ -10,6 +10,7 @@
 
 drumSynth::drumSynth(double freq, double pma, float gain_, float om, float tm, float nm, float oa, float oR, float pa, float pr, float na, float nr){
 
+    //set all the parameters!
     
     frequency = freq;
     pitchModAmount = pma;
@@ -46,21 +47,28 @@ drumSynth::drumSynth(double freq, double pma, float gain_, float om, float tm, f
 
 double drumSynth::play(bool isMute){
 
+    //check wether or not to play it
     if(!isMute){
+        
+        //running the envelopes
     oscEnvOut = oscAmpEnv.adsr(1., oscAmpEnv.trigger);
     pitchModOut = pitchMod.adsr(pitchModAmount, pitchMod.trigger);
     noiseEnvOut = noiseAmpEnv.adsr(1., noiseAmpEnv.trigger);
 
   
+        //set mix between the two waveforms
     float sineMix = oscMix;
     float sawMix = (1.-oscMix);
    
+        //all our outputs
     double sineOutput = sine.sinewave(frequency*(1+pitchModOut))*oscEnvOut;
     double sawOutput = saw.triangle(frequency*(1+pitchModOut))*oscEnvOut;
     double noiseOutput = noise.noise()*noiseEnvOut;
     
+        //add 'em uo
     output = (((sineMix*sineOutput) + (sawMix*sawOutput)) * toneMix) + (noiseOutput * noiseMix);
 
+        //reset our tiggers
     if(oscAmpEnv.trigger == 1){
         oscAmpEnv.trigger =0;
         
@@ -80,17 +88,20 @@ double drumSynth::play(bool isMute){
    
     return output * gain;
     }else{
+        //don't want to output anything if mute
         return 0;
     }
 }
 
 void drumSynth::trigger(){
+    //go go go!
     oscAmpEnv.trigger = 1;
     pitchMod.trigger =1;
     noiseAmpEnv.trigger = 1;
 
 }
 
+//functions for assigning all our parameteers!
 void drumSynth::setFrequency(double newFreq){
 
     frequency = newFreq;
@@ -150,12 +161,7 @@ void drumSynth::setGain(float newGain){
     gain = newGain;
 }
 
-void drumSynth::randomiseSeq(){
-    
-    for(int i = 0; i < 16; i++){
-        sequence[i] = (int)ofRandom(2);
-    }
-}
+
 
 
 

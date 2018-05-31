@@ -10,12 +10,13 @@
 
 #include "ofMain.h"
 #include "ofxMaxim.h"
-#include "ofxGui.h"
+//#include "ofxGui.h"
 
 class drumSynth{
     
 public:
   
+    //default values, close enough to a kick
        drumSynth(double freq = 40, double pma = 1.5, float gain_ =0.5, float om = 0.9, float tm = 1.0, float nm = 0.1, float oa = 0, float oR = 5000, float pa = 0, float pr = 10, float na = 0, float nr = 5);
     
     double play(bool isMute);
@@ -30,8 +31,7 @@ public:
     void setOscMix(float mix);
     void setNoiseMix(float mix);
     void setToneMix(float mix);
-    void randomiseSeq();
-    
+   
     maxiOsc sine;
     maxiOsc saw;
     maxiOsc noise;
@@ -57,6 +57,7 @@ public:
     float noiseMix;
     float toneMix;
    
+    //initial sequence
     int sequence [16] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
     
 };

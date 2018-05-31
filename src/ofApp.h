@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxMaxim.h"
-#include "ofxGui.h"
+//#include "ofxGui.h"
 #include "drumSynth.hpp"
 #include "sequencer.hpp"
 

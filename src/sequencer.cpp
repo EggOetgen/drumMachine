@@ -11,6 +11,8 @@ sequencer::sequencer(){
     tempo = 132;
     gain = 0.5;
     
+    
+    //lets give each synth some parameters
     channels[0] = drumSynth();
     channels[1] = drumSynth(260, 3.66, 0.5, 0.75, 0.075, 0.815, 0, 750, 0, 16,  0, 44.5) ;
     channels[2] = drumSynth(260, 3.66, 0.5, 0.75, 0.075, 0.815, 0, 750, 0, 16,  0, 44.5) ;
@@ -36,6 +38,7 @@ sequencer::sequencer(){
         toneMixs[i] = channels[i].toneMix;
     }
 
+    //not too sure about this, but if you take it out bad things happen! memset might be better..
     int chan1Seq[]= { 1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0};
     memcpy(channels[0].sequence, chan1Seq, sizeof(chan1Seq));
     int chan2Seq[]= { 0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0};
@@ -53,6 +56,7 @@ sequencer::sequencer(){
     int chan8Seq[]= { 0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0};
     memcpy(channels[7].sequence, chan8Seq, sizeof(chan8Seq));
    
+    //reset all our sequences and mutes
     for(int row = 0; row < numChannels; row++){
       
          mutes[row] = false ;
@@ -61,6 +65,7 @@ sequencer::sequencer(){
             steps[col][row] = false;
         }
     }
+    //...and the gui
     gui.setup();
 }
 
@@ -69,7 +74,9 @@ double sequencer::play(){
     double output = 0;
 
 
+    //add the outputs of all our oscillaotrs
     output = channels[0].play(mutes[0]) +channels[1].play(mutes[1]) + channels[3].play(mutes[3]) + channels[2].play(mutes[2]) + channels[4].play(mutes[4]) + channels[5].play(mutes[5]) + channels[6].play(mutes[6]) + channels[7].play(mutes[7]);
+   //just to be safe
     if (output > 1) output = 0.7;
     return output;
 }
@@ -77,6 +84,7 @@ double sequencer::play(){
 void sequencer::step(int playHead){
 
 
+    //check if the current step has anything there, if it does, trigger!
     for(int i = 0; i < numChannels; i++){
         if(channels[i].sequence[playHead]  ==1){
             channels[i].trigger();
@@ -85,6 +93,8 @@ void sequencer::step(int playHead){
 }
 
 void sequencer::display(){
+    
+    //the gui!
     gui.begin();
     
    
@@ -101,6 +111,7 @@ void sequencer::display(){
         {
             ImGui::TreePop();
       
+            //using this string method so that we can use a for loop rather than having to write it over and over and over...
             string temp = "Oscillator " + name + " Mute";
             char const* tempChar = temp.c_str();
             ImGui::Checkbox(tempChar,&mutes[i]);
@@ -155,7 +166,7 @@ void sequencer::display(){
         }
         
     
-       
+       //the sequencer, 8 rows of 16 steps
         for(int row = 0; row < numChannels; row++){
         for(int col = 0; col < 16; col++){
             
@@ -179,11 +190,27 @@ void sequencer::update(){
 
     
     for(int row = 0; row < numChannels; row++){
+        //make sure all our parametes are up to date
+
+        
+        channels[row].setGain(gain);
+        channels[row].setFrequency(frequencies[row]);
+        channels[row].setModAmount(modAmounts[row]);
+        channels[row].setOscEnv(ampEnvAtks[row], 1,1, ampEnvRlss[row]);
+        channels[row].setModEnv(modEnvAtks[row], 1,1, modEnvRlss[row]);
+        channels[row].setNoiseEnv(noiseEnvAtks[row], 1,1, noiseEnvRlss[row]);
+        channels[row].setOscMix(pitchMixs[row]);
+        channels[row].setNoiseMix(noiseMixs[row]);
+        channels[row].setToneMix(toneMixs[row]);
+
         for(int col = 0; col < 16; col++){
+            
+            //set the sequence for the each synth
             channels[row].sequence[col] = steps[col][row];
             
             
             if(randomise){
+                //make it a bit less than 50/50
                 steps[col][row] = false;
                 float r = ofRandom(1.0);
                 if (r<0.2){
@@ -202,18 +229,7 @@ void sequencer::update(){
 
    
   
-    for(int i = 0; i < numChannels; i++){
-
-        channels[i].setGain(gain);
-        channels[i].setFrequency(frequencies[i]);
-        channels[i].setModAmount(modAmounts[i]);
-        channels[i].setOscEnv(ampEnvAtks[i], 1,1, ampEnvRlss[i]);
-        channels[i].setModEnv(modEnvAtks[i], 1,1, modEnvRlss[i]);
-        channels[i].setNoiseEnv(noiseEnvAtks[i], 1,1, noiseEnvRlss[i]);
-        channels[i].setOscMix(pitchMixs[i]);
-        channels[i].setNoiseMix(noiseMixs[i]);
-        channels[i].setToneMix(toneMixs[i]);
-    }
+       
 
 
 }

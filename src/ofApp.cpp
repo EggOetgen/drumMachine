@@ -16,7 +16,7 @@ void ofApp::setup(){
     ofEnableAlphaBlending();
     ofEnableSmoothing();
     
-    
+    //set the initial tempo
     benKlock.setTempo(132      );
     benKlock.setTicksPerBeat(4);
     
@@ -37,9 +37,7 @@ void ofApp::update(){
 
 
     testSeq.update();
-    cout<<testSeq.modAmounts[0] <<endl;
-
-}
+   }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
@@ -53,6 +51,7 @@ void ofApp::draw(){
 //--------------------------------------------------------------
 void ofApp::audioOut(float * output, int bufferSize, int nChannels) {
     
+    audOut = 0;
     for (int i = 0; i < bufferSize; i++){
         
         benKlock.ticker();
@@ -64,7 +63,8 @@ void ofApp::audioOut(float * output, int bufferSize, int nChannels) {
             testSeq.step(playHead);
                   }
         audOut = testSeq.play();
-        output[i*nChannels    ] = audOut;        output[i*nChannels + 1] = audOut;
+        output[i*nChannels    ] = audOut;
+        output[i*nChannels + 1] = audOut;
 
     }
 }

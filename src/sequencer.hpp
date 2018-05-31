@@ -9,7 +9,7 @@
 
 #include "ofMain.h"
 #include "ofxMaxim.h"
-#include "ofxGui.h"
+//#include "ofxGui.h"
 #include "drumSynth.hpp"
 #include "ofxImGui.h"
 
@@ -39,7 +39,7 @@ public:
     float gain;
     
     
-    
+    //arrays for storing the variables for each synth!
     float frequencies[numChannels], modAmounts[numChannels], ampEnvAtks[numChannels], ampEnvRlss[numChannels], modEnvAtks[numChannels], modEnvRlss[numChannels], noiseEnvAtks[numChannels],noiseEnvRlss[numChannels], pitchMixs[numChannels], noiseMixs[numChannels], toneMixs[numChannels] ;
     
 
